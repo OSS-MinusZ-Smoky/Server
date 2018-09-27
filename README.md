@@ -34,12 +34,12 @@ Request
 
 -URL Parameter
 
-'''
+~~~
 | Name          | Description                                                  | Value-Type |
 |---------------|--------------------------------------------------------------|------------|
 |apikey         |(required) private key that is proof real value at one machine|<String>    |
 |city           |(required) classify the machine's location                    |<Stiing>    |
-'''
+~~~
 
 >Response
 
