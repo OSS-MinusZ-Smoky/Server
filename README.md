@@ -28,11 +28,11 @@ Usage
 
 Request
 
--HTTP Method
+*HTTP Method
 
 >POST
 
--URL Parameter
+*URL Parameter
 
 ~~~
 | Name          | Description                                                  | Value-Type |
@@ -43,6 +43,6 @@ Request
 
 >Response
 
--HTTP Status Code
+*HTTP Status Code
 
 >200
