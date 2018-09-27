@@ -41,7 +41,7 @@ Request
 |city           |(required) classify the machine's location                    |<Stiing>    |
 
 
->Response
+Response
 
 `HTTP Status Code`
 
