@@ -30,6 +30,24 @@ Request
 
 `HTTP Method`
 
+>GET
+
+`URL Parameter`
+
+
+| Name          | Description                                                  | Value-Type |
+|---------------|--------------------------------------------------------------|------------|
+|/?city=cityname|get machine data from api server                              |Object(json)|
+|/data?doh=param|get card machine data from api server                         |Object(json)|
+|&city=param    |                                                              |            |
+|&id=param      |                                                              |            |
+Response
+
+`HTTP Status Code`
+
+>200
+
+
 >POST
 
 `URL Parameter`
@@ -37,8 +55,8 @@ Request
 
 | Name          | Description                                                  | Value-Type |
 |---------------|--------------------------------------------------------------|------------|
-|apikey         |(required) private key that is proof real value at one machine|String      |
-|city           |(required) classify the machine's location                    |Stiing      |
+|status         |(required) smoke concentraion at one machine on real time     |Integer     |
+
 
 
 Response
