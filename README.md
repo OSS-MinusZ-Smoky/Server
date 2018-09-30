@@ -35,17 +35,16 @@ Request
 `URL Parameter`
 
 
-| Name          | Description                                                  | Value-Type |
-|---------------|--------------------------------------------------------------|------------|
-|/?city=cityname|get machine data from api server                              |Object(json)|
-|/data?doh=param|get card machine data from api server                         |Object(json)|
-|&city=param    |                                                              |            |
-|&id=param      |                                                              |            |
+| Name                              | Description                                    | Value-Type |
+|-----------------------------------|------------------------------------------------|------------|
+|/?city=cityname                    |get machine data from api server                |Object(json)|
+|/data?doh=param&city=param&id=param|get card machine data from api server           |Object(json)|
+
 Response
 
 `HTTP Status Code`
 
->200
+200
 
 
 >POST
@@ -63,4 +62,4 @@ Response
 
 `HTTP Status Code`
 
->200
+200
