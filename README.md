@@ -73,3 +73,8 @@ Response
 * 형상관리 : GitHub
 * DB     : mysql
 * 주요기술 :  Nodejs, mysql
+
+
+## License
+
+This server is released under the [MIT License](https://opensource.org/licenses/MIT).
